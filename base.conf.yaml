@@ -1,3 +1,4 @@
 - clean: []
 - link: {}
-- shell: []
+- shell:
+    - [ RUN_ZSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" , Installing Oh My ZSH]
